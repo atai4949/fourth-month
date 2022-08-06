@@ -9,6 +9,7 @@ export default function Header() {
                 <li><NavLink to="/" className={classes.link}>Main</NavLink></li>
                 <li><NavLink to="/users" className={classes.link}>Our users</NavLink></li>
                 <li><NavLink to="/about" className={classes.link}>About</NavLink></li>
+                <li><NavLink to="/about" className={classes.link}>Contact</NavLink></li>
             </ul>
         </div>
     )
